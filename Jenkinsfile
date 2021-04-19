@@ -9,7 +9,7 @@ pipeline {
         stage('Cloning Git') {
             steps {
                 nodejs(nodeJSInstallationName: 'node14'){
-                    git 'https://github.com/Kartik-3004/room-booking-system.git'
+                    git 'https://github.com/Kartik-3004/cdc-portal.git'
                 }  
             }
         }
